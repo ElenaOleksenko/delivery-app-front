@@ -1,0 +1,74 @@
+header {
+   height: 12vh;
+   position: sticky;
+   top: 0;
+   z-index: 100;
+}
+.header-container {
+   height: 12vh;
+   width: 100%;
+   border-bottom: .2vh solid #e7effb;
+   background: white;
+}
+header,
+.header-container,
+.name-container {
+   display: flex;
+   flex-direction: row;
+}
+.logo-container {
+   display: flex;
+   flex-direction: row;
+   width: 17%;
+   margin-left: 15vh;
+}
+nav {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   width: 78%;
+}
+.nav-link-about,
+.nav-link-contacts,
+.nav-link-rules {
+   text-decoration: none;
+   color: black;
+}
+.nav-link-about {
+   margin-right: 5vh;
+}
+.nav-link-about,
+.nav-link-contacts,
+.nav-link-rules {
+   border-bottom: 0.3vh solid transparent;
+}
+.nav-link-contacts {
+   margin-left: 5vh;
+   margin-right: 5vh;
+}
+.nav-link-rules {
+   margin-left: 5vh;
+}
+.language-container {
+   display: flex;
+   align-self: flex-end;
+   width: 5%;
+   margin-right: 15vh;
+}
+.logo-description {
+   display: flex;
+   align-self: center;
+}
+.nav-link-about:hover,
+.nav-link-contacts:hover,
+.nav-link-rules:hover {
+   border-bottom: 0.3vh solid black;
+}
+.profile-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin-right: 5vh;
+}

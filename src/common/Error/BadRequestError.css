@@ -1,0 +1,34 @@
+.error-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-self: flex-start;
+}
+.error-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+    width: 50vh;
+    margin-left: 15vh;
+}
+.wrapper-error-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+    border-top: .2vh solid lightgrey;
+    border-bottom: .2vh solid lightgrey;
+    background-image: url('../../../public/error.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.button-container {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    margin-top: 3vh;
+}
+
+

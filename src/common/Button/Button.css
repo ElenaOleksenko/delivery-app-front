@@ -1,0 +1,11 @@
+.logout-button {
+    width: 15vh;
+    height: 5vh;
+    font-family: 'Ruda', sans-serif;
+    background: white;
+    border: .1vh solid  rgb(254, 202, 62);
+    border-radius: 0.5vh;
+    cursor: pointer; 
+    
+}
+

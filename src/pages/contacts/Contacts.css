@@ -1,0 +1,49 @@
+.contacts-wrapper {
+    height: 100vh;
+}
+.contacts-wrapper-box {
+    margin: 5vh 0 0 0;
+}
+.contacts-wrapper-box-header {
+    margin: 0 0 5vh 16vh;
+}
+.contacts-wrapper-box-life, .contacts-wrapper-box-vodafone {
+    margin: 0 0 0 16vh;
+}
+.contacts-wrapper-box-life-img, .contacts-wrapper-box-vodafone-img {
+    display: flex;
+    align-items: center;
+    margin-right: 2vh;
+    height: 7vh;
+    width: 7vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contacts-wrapper-box-life-img {
+    background-image: url(lifecell.jpg);
+}
+.contacts-wrapper-box-vodafone-img {
+    background-image: url(vodafone.png);
+    border-radius: 1vh;
+}
+.contacts-wrapper-box-life, .contacts-wrapper-box-vodafone {
+    display: flex;
+    flex-direction: row;
+}
+.contacts-wrapper-box-life-img-container, .contacts-wrapper-box-vodafone-img-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    width: 20vh;
+}
+.contacts-wrapper-box-life-number, .contacts-wrapper-box-vodafone-number {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10vh;
+}
+.contacts-wrapper-box-phone {
+    margin-bottom: 2vh;
+}

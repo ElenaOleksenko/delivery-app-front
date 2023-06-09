@@ -1,0 +1,29 @@
+.archive-load-box {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border-top: .1vh solid #e7effb;
+    border-bottom: .1vh solid #e7effb;
+}
+.box-loads-elements {
+    display: flex;
+    flex-direction: row;
+    margin: 0 15vh 0 15vh;
+    width: 90%;
+}
+.header-table-archive-container {
+    display: flex;
+    flex-direction: row;
+    margin: 5vh 15vh 0 15vh;
+    width: 90%;
+    background: #e7effb;
+}
+.table-elements, .table-header-elements {
+    width: 20%;
+}
+.table-elements {
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    margin: 1vh 0 1vh 0;
+}

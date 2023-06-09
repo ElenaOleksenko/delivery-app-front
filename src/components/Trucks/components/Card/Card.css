@@ -1,0 +1,32 @@
+.table-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 2vh;
+}
+
+.table-container-item,
+.table-container-item-pickup,
+.table-container-item-delivery {
+    width: 20%;
+}
+
+.table-container-item-pickup,
+.table-container-item-delivery {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-icon {
+    font-size: 2.5vh;
+    color: rgb(219, 165, 17);
+    cursor: pointer;
+}
+
+.item-icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 20%;
+}

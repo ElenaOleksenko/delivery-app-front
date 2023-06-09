@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+.container-exist-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.error-container-exist {
+  font-size: 1.7em;
+  margin-bottom: 2vh;
+}
+.error-link-container-exist {
+  font-size: 1.1em;
+}
+
+

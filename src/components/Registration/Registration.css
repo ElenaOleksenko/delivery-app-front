@@ -1,0 +1,48 @@
+.registration-container {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+.registration {
+    display: flex;
+    flex-direction: column;
+}
+.button-register-password-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 3vh;
+}
+.registration-form {
+    width: 55vh;
+}
+.wrapper-container {
+    flex-direction: row;
+}
+.text-container {
+    flex-direction: column;
+}
+.wrapper-registration-container, .text-container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-top: .1vh solid #e7effb;
+    border-bottom: .1vh solid #e7effb;
+}
+.wrapper-password-input-container, .wrapper-email-input-container {
+    display: flex;
+    flex-direction: row;
+    width: 30vh;
+}
+.icon-email-container, .icon-password-container, .wrapper-password-show-container, .icon-username-container {
+    display: flex;
+    align-self: flex-end;
+    border-bottom: .2vh solid lightgrey;
+ }
+ .icon-email-container, .icon-password-container, .icon-username-container {
+    padding-right: 2vh;
+ }
+ .email-icon-hide {
+    color: transparent;
+}

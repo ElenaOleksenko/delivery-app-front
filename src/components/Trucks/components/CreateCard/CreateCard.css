@@ -1,0 +1,18 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: inherit;
+}
+.create-card-description {
+    width: 45vh;
+}
+.dimensions {
+    margin: 0 0 1vh 0;
+    font-weight: bold;
+}
+.error-registration-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1vh;
+}

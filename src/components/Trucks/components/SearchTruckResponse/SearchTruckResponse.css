@@ -1,0 +1,27 @@
+.search-truck-response-list-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 10vh;
+    height: 30%;
+}
+.search-truck-response-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+    border-top: .1vh solid lightgrey;
+    border-bottom: .1vh solid lightgrey;
+}
+.search-truck-response-list-item, .search-truck-response-list-item-message {
+    list-style: none;
+}
+.search-truck-response-list-item-message {
+    font-weight: bold;
+}
+.search-truck-response-list-item-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+}

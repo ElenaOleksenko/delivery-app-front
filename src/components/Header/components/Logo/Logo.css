@@ -1,0 +1,11 @@
+.logo {
+    width: 100%;
+    cursor: pointer;  
+}
+.img-container {
+    width: 10vh;
+    height: 10vh;
+}
+img {
+    height: 10vh;
+}

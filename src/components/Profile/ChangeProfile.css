@@ -1,0 +1,110 @@
+.change-profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    background: #bbcfe7;
+}
+.form-change-pofile-container, .box-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-change-pofile-container {
+    height: 60%;
+}
+.box-profile {
+    justify-content: space-evenly;
+    width: 70%;
+    height: 70%;
+    background: white;
+    border-radius: 1vh;
+}
+.upload-photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.change-pofile-header {
+    margin: 0;
+}
+.upload-photo-text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3vh;
+    cursor: pointer;
+}
+.form-change-pofile-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.change-pofile-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3vh 0 3vh 0;
+}
+.delete-profile-btn-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.form-change-password-input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80%;
+}
+.change-password-input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 90%;
+}
+.btn-primary {
+    cursor: pointer;
+}
+.select-option-box {
+    display: flex;
+    flex-direction: column;
+}
+.old-password-input-box, .new-password-input-box, .confirm-password-input-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;  
+}
+.password-change-icon {
+    cursor: pointer;
+    color: rgb(219, 165, 17);
+    padding-right: 1vh;
+}
+.password-change-icon-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 4vh;
+    width: 3.5vh;
+    border: .1vh solid grey;
+    border-left: none;
+}
+.error-change-profile, .error-change-profile-box, .error-change-profile-box-confirm {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.error-change-profile {
+    font-size: .9em;
+    color: rgb(250, 112, 153);
+}
+
+

@@ -1,0 +1,79 @@
+.profile-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    width: 35%;
+    border-top: .1vh solid #e7effb;
+    border-bottom: .1vh solid #e7effb;
+    }
+    .profile-page-navigate-container, .change-password-container, .delete-profile-container {
+        display: flex;
+        flex-direction: row;
+    }
+    .profile-page-navigate-container {
+        margin: 5vh 0 0 15vh;
+    }
+    .back-to-main-page-link {
+        margin: 0 0 0 2vh;
+    }
+    .main-page-link {
+        text-decoration: none;
+        color: black;
+    }
+    h3 {
+        color: black;
+        font-size: 1.5em;
+        margin: 3vh 0 0 15vh;
+    }
+    .common-profile-menu, .data-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .data-container {
+        align-items: flex-start;
+        margin-left: 3vh;
+    }
+    .common-profile-menu {
+        justify-content: center;
+        height: 95%;
+        width: 100%;
+    }
+    .avatar-data-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 20%;
+    }
+    .data-username {
+        margin-bottom: 0;
+        font-weight: bold;
+    }
+    .data-edit {
+        color: #7f9abb;
+        cursor: pointer;
+    }
+    .delete-profile-container, .change-password-container {
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        height: 20%;
+    }
+    .back-to-main-page-icon {
+        font-size: 2.5vh;
+        color:rgb(219, 165, 17);
+        cursor: pointer;
+    }
+    .common-change-profile-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .data-edit-password, .data-delete {
+        margin: 0 0 0 15vh;
+    }
+    .profile-menu-header {
+        height: 10%;
+    }

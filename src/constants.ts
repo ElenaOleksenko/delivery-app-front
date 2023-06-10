@@ -3,8 +3,8 @@ import {
 	faTruckRampBox,
 	faBoxArchive,
 } from '@fortawesome/free-solid-svg-icons';
-// https://delivery-app-wytd7t5ava-uc.a.run.app
-export const baseUrl = 'https://my-delivery-app-wytd7t5ava-uc.a.run.app';
+// https://my-delivery-app-wytd7t5ava-uc.a.run.app
+export const baseUrl = 'https://delivery-app-back-43wjgjaw5a-ey.a.run.app';
 
 export const registrationEmailField: string = 'Email';
 

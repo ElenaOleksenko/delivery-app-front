@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/delivery-app-front/static/css/main.1d9eedd5.css",
-    "main.js": "/delivery-app-front/static/js/main.54677dde.js",
+    "main.js": "/delivery-app-front/static/js/main.11bb8fb9.js",
     "static/js/787.28cb0dcd.chunk.js": "/delivery-app-front/static/js/787.28cb0dcd.chunk.js",
     "static/media/photo-greetings.jpg": "/delivery-app-front/static/media/photo-greetings.bfeb9088e7f408463201.jpg",
     "static/media/error.jpg": "/delivery-app-front/static/media/error.0646a5a346bde4526753.jpg",
@@ -9,11 +9,11 @@
     "static/media/lifecell.jpg": "/delivery-app-front/static/media/lifecell.754fad683ebab0a309aa.jpg",
     "index.html": "/delivery-app-front/index.html",
     "main.1d9eedd5.css.map": "/delivery-app-front/static/css/main.1d9eedd5.css.map",
-    "main.54677dde.js.map": "/delivery-app-front/static/js/main.54677dde.js.map",
+    "main.11bb8fb9.js.map": "/delivery-app-front/static/js/main.11bb8fb9.js.map",
     "787.28cb0dcd.chunk.js.map": "/delivery-app-front/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1d9eedd5.css",
-    "static/js/main.54677dde.js"
+    "static/js/main.11bb8fb9.js"
   ]
 }
